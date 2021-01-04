@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon server/server.js & electron .",
     "build": "NODE_ENV=production webpack",
-    "dev": "NODE_ENV=development nodemon server/server.js & webpack-dev-server --open"
+    "dev": "NODE_ENV=development nodemon server/server.js & webpack-dev-server --open",
+    "test": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
@@ -17,11 +18,14 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.5",
     "@babel/runtime": "^7.12.5",
+    "@testing-library/react": "^11.2.2",
     "@webpack-cli/serve": "^1.1.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.1",
     "css-loader": "^5.0.1",
     "electron": "^11.0.4",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16.2": "^1.6.3",
     "eslint": "^7.13.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^6.15.0",
@@ -36,6 +40,7 @@
     "prettier": "^2.1.2",
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
+    "supertest": "^6.0.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.11.0"
