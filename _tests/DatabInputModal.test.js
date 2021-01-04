@@ -1,6 +1,6 @@
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16.2';
-import { shallow } from 'enzyme';
+import { shallow, mount, render } from 'enzyme';
 import DatabInputModal from '../client/components/DatabInputModal.jsx';
 
 Enzyme.configure({ adapter: new Adapter() });
@@ -21,5 +21,5 @@ and then your tests make sure it actually does.
 */
 
 describe('DatabInputModal tests', () => {
-
+  describe('')
 })
