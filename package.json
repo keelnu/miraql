@@ -7,7 +7,11 @@
     "start": "nodemon server/server.js & electron .",
     "build": "NODE_ENV=production webpack",
     "dev": "NODE_ENV=development nodemon server/server.js & webpack-dev-server --open",
+<<<<<<< HEAD
     "test": "jest --watchAll --coverage"
+=======
+    "test": "jest --watchAll"
+>>>>>>> main
   },
   "keywords": [],
   "author": "",
@@ -25,7 +29,10 @@
     "css-loader": "^5.0.1",
     "electron": "^11.0.4",
     "enzyme": "^3.11.0",
+<<<<<<< HEAD
     "enzyme-adapter-react-16.2": "^1.6.3",
+=======
+>>>>>>> main
     "eslint": "^7.13.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^6.15.0",
